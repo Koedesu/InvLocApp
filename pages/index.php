@@ -1,5 +1,3 @@
 <?php
 if(isset($_REQUEST['mensaje']))
-echo $_REQUEST['mensaje'];
-
-?>
+echo "Bienvenido: ".$_REQUEST['mensaje'];

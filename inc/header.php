@@ -7,3 +7,6 @@
     <title>DOCUMENTO HTML</title>
 </head>
 <body>
+    <?php if(isset($_SESSION['administrador'])): ?>
+    <a href="<?php echo urlsite?>/procesos/logout.php">SALIR</a>
+    <?php endif; ?>
